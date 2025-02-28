@@ -1,0 +1,23 @@
+*{
+    border-box: box-sizing;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+.nav-1{
+   background-color: rgb(6,35,92);float: left;
+   width: 100%;
+   margin-left: 75
+   text-align: right;complement
+}
+
+.nav-2 img{
+    height: 4rem;
+}
+
+.nav-2 li{
+    
+}
