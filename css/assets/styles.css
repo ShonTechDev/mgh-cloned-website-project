@@ -94,6 +94,7 @@ font-size: 0.8rem;
     border: 2px yellow solid;
 }
 
+/* ===================FOOTER=================== */
 
 footer {
     background-color: rgb(6,35,92);
@@ -103,7 +104,12 @@ footer {
 
     padding: 1rem;
     text-align: center;
+    padding-top: 200px;
 }
+
+/* ===================FOOTER=================== */
+
+
 
 /* background video */
 
@@ -155,7 +161,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(6,35,92);
+    background-color: rgba(177, 30, 32, 0.8);
 }
 
 
@@ -205,11 +211,15 @@ main > ul > li {
     cursor: pointer;
 }
 
+main > ul > li:hover {
+   background-color: rgba(177, 30, 32, 0.8);
+}
+
 /* =======WHITE BUTTON Learn more about us =========== */
 
 main > ul > li + li {
 
-    border: 2px solid red;
+    border: 2px solid rgb(255, 45, 48);;
     margin-left: 20%;
     padding: 1%;
     list-style: none;
@@ -229,8 +239,16 @@ main > ul > li + li {
    padding: 10px 20px;
 }
 
+
+.white-button:hover {
+    background-color: rgb(255, 45, 48);;
+    color: white;
+}
+
+
+
 .cart-counter {
-    background-color: red;
+    background-color: rgb(255, 45, 48);
     border-radius: 19px;
 }
 
@@ -243,3 +261,22 @@ main > ul > li + li {
     transform: translate(-50%, -50%);   
 
 } */
+
+
+/* SECTION LAYOUTS */
+
+.horizontal-scroll{
+    background-color: rgb(219, 231, 241);
+    height: 350px;
+    padding: 5% 10%;
+}
+
+.latest-news {
+    padding: 5% 10%;
+}
+
+
+.our-culture {
+    background-color: rgb(242, 242, 242);
+    padding: 5% 10%;
+}
