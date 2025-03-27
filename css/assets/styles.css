@@ -1,23 +1,245 @@
 *{
-    border-box: box-sizing;
+
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body{
 }
 
-.nav-1{
-   background-color: rgb(6,35,92);float: left;
-   width: 100%;
-   margin-left: 75
-   text-align: right;complement
+.nav-1 ul {
+    display: inline;
+    padding: 0.9rem;
+    background-color: rgb(6,35,92);
+    width: 100%;
+    height: 1rem;
+
+    display:flex;
+    justify-content: start;
+    padding-left: 86%;
+
+    list-style: none;
+    color: white;
+    gap: 1rem;
+
+    font-size: 0.8rem;
 }
 
-.nav-2 img{
+.nav-1 > img{
+    color: white;
     height: 4rem;
 }
 
-.nav-2 li{
-    
+.nav-2 {
+    height: 3rem;
+    color: black;
 }
+
+.nav-2 ul {
+display: inline;
+/* padding: 0.7rem; */
+background-color: white;
+color: black;
+width: 100%;
+height: 3rem;
+
+display:flex;
+justify-content: start;
+
+list-style: none;
+color: blue;
+gap: 1rem;
+
+font-size: 0.8rem;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-2 ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.search_icon {
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+
+.mgh_logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 3rem;
+    padding-right: 85%;
+
+}
+
+
+
+.box-2 img{
+    border: 2px yellow solid;
+}
+
+
+footer {
+    background-color: rgb(6,35,92);
+    color: white;
+
+    height: 500px;
+
+    padding: 1rem;
+    text-align: center;
+}
+
+/* background video */
+
+
+
+
+
+
+
+/* =============== Background Video ========*/
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the section */
+    z-index: -1; /* Keeps video behind content */
+}
+
+/* Controls */
+.controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    z-index: 999999;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-1909%, 720%);
+    /* padding: 10px 20px; */
+
+
+}
+
+button:hover {
+    background-color: rgb(6,35,92);
+}
+
+
+/*================ Main Section ===========*/
+main {
+    position: relative;
+    width: 100%;
+    height: 63.5vh;
+    overflow: hidden;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: thinner;
+
+    text-wrap: wrap;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+main > h1{
+    
+    padding-top: 200px;
+    padding-left: 15px;
+
+    /* position: absolute; /* centers */
+    /* top: 100%;  centers */
+    /* left: 50%;  centers */
+    /* transform: translate(-50%, -50%);  centers */
+    /* z-index: 999999; centers */
+
+}
+
+main > p {
+    padding-left: 20px;
+}
+
+/* =======RED BUTTON WATCH ANNAS STORY=========== */
+
+main > ul > li {
+    margin-left: 1.5%;
+    padding: .7%;
+    list-style: none;
+    background-color: rgb(255, 45, 48);
+    width: 17%;
+    border-radius: 0.2rem;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+/* =======WHITE BUTTON Learn more about us =========== */
+
+main > ul > li + li {
+
+    border: 2px solid red;
+    margin-left: 20%;
+    padding: 1%;
+    list-style: none;
+    background-color: white;
+    width: 15%;
+    color: red; 
+
+    border-radius: 0.2rem;
+}
+
+.white-button {
+   z-index: 999999;
+   position: absolute;
+   top: 61%;
+   left: 13%;
+   transform: translate(-50%, -50%);
+   padding: 10px 20px;
+}
+
+.cart-counter {
+    background-color: red;
+    border-radius: 19px;
+}
+
+/* .nav-2 > img {
+    padding-top: 42%;
+    z-index: 999999;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+
+} */

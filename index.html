@@ -10,30 +10,42 @@
 
     <nav>
         <div class="nav-1">
+
             <ul>
-                <li><a href="index.php">Sign In</a></li>
-                <li><a href="about.php">Cart</a></li>
+
+                <li><a href="#"><img src="./css/assets/shopping_cart_icon.svg"> <img src="./css/assets/counter_0-in-cart.svg" class="cart-counter"></a></li>
+                <li><a href="index.php"><img src="./css/assets/signin_icon.svg"> Sign In</a></li>
+                <li><img src="./css/assets/search_icon.svg" class="search_icon"></li>
+                
             </ul>
         </div>
+
         <div class="nav-2">
             <ul>
-                <a href="#"><img src="css/assets/MGH_Logo_RGB.svg" alt="McGrind Hill"></a>
-                <a href="index.php">Sign In</a>
-                <a href="about.php">PreK-12</a>
-                <a href="about.php">Higher Ed</a>
-                <a href="about.php">Professional</a>
-                <a href="about.php">International</a>
-                <a href="about.php">About Us</a>
+                <a href="#"><img src="css/assets/McGrindHill_logo.png" alt="McGrind Hill" class="mgh_logo"></a>
+                <a href="#">PreK-12<img src="./css/assets/arrow_drop_down_blk.svg"></a>
+                <a href="#">Higher Ed<img src="./css/assets/arrow_drop_down_blk.svg"></a>
+                <a href="#">Professional<img src="./css/assets/arrow_drop_down_blk.svg"></a>
              </ul>
         </div>
     </nav>
-
+<!--====================== MAIN section below =======================  -->
     <main>
-        <H1>Find the path to what's possible.</H1>
-            <p>Every teaching and learning journey is unique. We'll help guide your way.</p>
+        <video autoplay muted loop id="background-video">
+            <source src="./css/assets/main_header_vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="controls">
+            <button id="play-btn"><img src="./css/assets/play_arrow.svg"></button>
+            <button id="pause-btn"><img src="./css/assets/pause_icon.svg"></button>
+        </div>
+
+        <h1>Find the path to <br>what's possible.</h1>
+            <p>Every teaching and learning journey is <br> unique. We'll help guide your way.</p>
             <ul>
-                <li>Watch Anna's Story</li>
-                <li>Learn More About Us></li>
+                <li class="red-button"><img src="./css/assets/play_arrow.svg"> Watch Anna's Story <img src="./css/assets/open_in_new_win_icon_white.svg"></li>
+                <li class="white-button">Learn More About Us</li>
             </ul>
     </main>
 <!--====================== HORIZONTAL SCROLL SECTION=======================  -->
@@ -172,5 +184,44 @@
             </div>
         </div>
     </section>
+
+    <footer>
+
+Company Info
+About Us
+Contact & Locations
+Trust Center
+Careers
+Diversity, Equity, Inclusion & Belonging
+Social Responsibility
+Investor Relations
+Get Help
+Place an Order
+Get Support
+Contact Customer Service
+Contact Sales Rep
+Check System Status
+Additional Resources
+Permissions
+Suppliers
+Accessibility
+Author Support
+International Rights
+Purchase Order
+Our AI Approach
+Terms of Use
+|
+Privacy Center
+|
+Report a Vulnerability
+|
+Report Piracy
+|
+Site Map
+© 2025 McGraw Hill. All Rights Reserved.
+    </footer>
+
+<script src="./scripts/script.js"></script>
+
 </body>
 </html>
